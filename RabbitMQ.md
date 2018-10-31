@@ -28,7 +28,7 @@ Binding可以理解成是将Exchange和Queue连接起来的路由规则，Exchan
 
 #### 消息确认机制
 
-> 如果消息被某个消费者<b style='color:red;font-size:1.5rem'>正确</b>的接收到了，那么该消息就会从队列中移除。  
+> 如果消息被某个消费者<b style='color:#E64340;font-size:1.5rem'>正确</b>的接收到了，那么该消息就会从队列中移除。  
 那么怎么定义正确收到？通过ack。每个消息都要被acknowledged（确认）。  
 如果一个消息没有被确认，那么它就会被发送给下一个消费者。
 
